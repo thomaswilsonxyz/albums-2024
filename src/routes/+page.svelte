@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+	import Introduction from './Introduction.svelte';
+	import TheAlbums from './TheAlbums.svelte';
+</script>
+
+<h1>Wilson's favourite albums of 2024</h1>
+
+<Introduction />
+<TheAlbums />
