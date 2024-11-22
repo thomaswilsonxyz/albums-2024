@@ -1,10 +1,11 @@
-<h1 class="pb-2 text-center text-4xl text-purple-50">the best albums of 2024</h1>
+<h1 class="py-4 text-center text-5xl text-purple-50">the best albums of 2024</h1>
+
 <section class="flex w-full content-center justify-center p-2">
 	<div
-		class="grid w-full max-w-lg gap-2 border-4 border-double border-purple-600 bg-slate-50 p-2 shadow-sm shadow-purple-500"
+		class="grid w-full max-w-lg gap-2 border-4 border-double border-purple-600 px-4 py-2 shadow-sm shadow-purple-500"
 	>
 		<p>i've done it.</p>
-		<p>these are the bets records, albums, or LPs released this year.</p>
+		<p>these are the best records, albums, or LPs released this year.</p>
 
 		<p>
 			this list is objective and true. disregard all previous rankings of music. art <i>can</i> be ranked,
