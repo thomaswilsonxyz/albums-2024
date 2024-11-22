@@ -4,17 +4,20 @@ FROM node:18-alpine AS build
 # Set the working directory
 WORKDIR /app
 
+# Install pnpm
+RUN npm install -g pnpm
+
 # Copy package.json and package-lock.json
-COPY package.json package-lock.json ./
+COPY package.json pnpm-lock.yaml ./
 
 # Install dependencies
-RUN npm install
+RUN pnpm install
 
 # Copy the rest of the application code
 COPY . .
 
 # Build the SvelteKit app
-RUN npm run build
+RUN pnpm build
 
 # Use a lightweight web server to serve the static files
 FROM nginx:alpine
